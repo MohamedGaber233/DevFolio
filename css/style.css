@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(242, 243, 243)
+}
+.home{
+    transition: all .5s;
+
+}
+.drop{
+    right: 100%;
+    list-style: none;
+    
+}
+.an-drop , .deep{
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+.animation{
+    top: 60%;
+    
+}
+.animation::after{
+    content: "|";
+   animation-name: typing;
+   animation-duration: 7s;
+   animation-iteration-count: infinite;
+   
+}
+@keyframes typing{
+    0%{content : "D |"}
+    2%{content : "De |"}
+    4%{content : "Des |"}
+    8%{content : "Desi |"}
+    10%{content : "Desig |"}
+    12%{content : "Design |"}
+    14%{content : "Designe |"}
+    16%{content : "Designer |"}
+    17%{content : "Designer |"}
+    18%{content : "Designe |"}
+    20%{content : "Design |"}
+    22%{content : "Desig |"}
+    24%{content : "Desi |"}
+    26%{content : "Des |"}
+    28%{content : "De |"}
+    30%{content : "Dev |"}
+    32%{content : "Deve |"}
+    34%{content : "Devel |"}
+    36%{content : "Develo |"}
+    38%{content : "Develop |"}
+    40%{content : "Develope |"}
+    42%{content : "Developer |"}
+    43%{content : "Developer |"}
+    44%{content : "Develope |"}
+    46%{content : "Develop |"}
+    48%{content : "Develo |"}
+    50%{content : "Devel |"}
+    54%{content : "Dev |"}
+    52%{content : "Deve |"}
+    56%{content : "De |"}
+    58%{content : "D |"}
+    60%{content : "f |"}
+    62%{content : "fr |"}
+    63%{content : "fre |"}
+    64%{content : "free |"}
+    65%{content : "freel |"}
+    66%{content : "freela |"}
+    67%{content : "freelan |"}
+    68%{content : "freelanc |"}
+    69%{content : "freelance |"}
+    70%{content : "freelancer |"}
+    70%{content : "freelancer |"}
+    71%{content : "freelance |"}
+    72%{content : "freelanc |"}
+    73%{content : "freelan |"}
+    74%{content : "freela |"}
+    75%{content : "freel |"}
+    76%{content : "free |"}
+    77%{content : "fre |"}
+    78%{content : "fr |"}
+    79%{content : "f |"}
+    80%{content : "p |"}
+    81%{content : "ph |"}
+    82%{content : "pho |"}
+    83%{content : "phot |"}
+    84%{content : "photo |"}
+    85%{content : "photog |"}
+    86%{content : "photogr |"}
+    87%{content : "photogra |"}
+    88%{content : "photograp |"}
+    89%{content : "photograph |"}
+    90%{content : "photographe |"}
+    91%{content : "photographer |"}
+    91%{content : "photographer |"}
+    92%{content : "photographe |"}
+    93%{content : "photograph |"}
+    94%{content : "photograp |"}
+    95%{content : "photogra |"}
+    96%{content : "photogr |"}
+    97%{content : "photog |"}
+    98%{content : "photo |"}
+    99%{content : "phot |"}
+    100%{content : "pho |"}
+    100%{content : "ph |"}
+    100%{content : "p |"}
+}
+.underline{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    bottom: 3rem;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.img-header{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.section-6{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.color-sectio-6{
+    background-color: rgba(0, 120, 255, .5);
+    height: 100%;
+}
+.slide-img{
+    width: 8rem;
+}
+.carousel-indicators [data-bs-target]{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+.text-header{
+    padding: 0;
+    font-size: 3.5rem;
+}
+.ic i{
+    transition: all 1s;
+}
+.ic:hover i{
+    color: white;
+    background-color: blue;
+    border-color: rgb(62, 62, 224);
+}
+/* section 4 */
+.renge{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+     
+}
+.renge-color{
+    background-color: rgba(0, 120, 255, .5);
+    height: 100%;
+    
+}
+.PORTFOLIO-hover{
+    overflow: hidden;
+}
+
+.PORTFOLIO-hover img{
+
+        transition: all 2s;
+}
+.PORTFOLIO-hover:hover img{
+transform: scale(1.3);
+z-index: 0;
+}
+
+.underlin{
+    content: "";
+    width: 4%;
+    height: 5px;
+    background-color: blue;
+    position: relative;
+    bottom: 3rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+.spy{
+    top: 48%;
+    left:40%
+}
+.img-card img{
+    width: 2rem;
+}
+.img-card{
+    left: 0;
+}
+
+.text-card{
+    right: 0;
+}
+.size-text{
+    font-size: 10px;
+}
+.cursor{
+    cursor: pointer;
+}
+.cursor{
+    transition: all .5s;
+}
+.card .cursor:hover {
+    color:blue;
+}
+.button-border{
+    border-radius: 40%;
+}
+.CONTACT{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.color-CONTACT{
+    background-color: rgba(0, 120, 255, .5);
+    height: 100%;
+}
+.icon-contact span{
+    transition: all 1s;
+}
+.icon-contact span:hover{
+    color: white;
+    background-color: blue;
+}
